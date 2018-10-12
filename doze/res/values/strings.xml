@@ -12,7 +12,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
+    <string name="doze_display_summary">Ambient Display, Pick up pulse, Hand wave pulse</string>
     <string name="ambient_display_title">Ambient display</string>
     <string name="ambient_display_summary">Wake screen when you receive notifications</string>
 
