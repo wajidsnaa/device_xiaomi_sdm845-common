@@ -23,10 +23,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
-# Ambient Display
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
