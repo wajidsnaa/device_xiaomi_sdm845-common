@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.du.settings.doze;
+package com.xiaomi.doze;
 
 import android.app.ActionBar;
 import android.app.Activity;

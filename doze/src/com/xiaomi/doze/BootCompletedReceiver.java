@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.du.settings.doze;
+package com.xiaomi.doze;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -24,7 +24,7 @@ import android.util.Log;
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     private static final boolean DEBUG = false;
-    private static final String TAG = "ZukDoze";
+    private static final String TAG = "XiaomiDoze";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
