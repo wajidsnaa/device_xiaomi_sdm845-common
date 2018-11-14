@@ -11,7 +11,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    camera.disable_zsl_mode=true \
     persist.vendor.camera.enableAdvanceFeatures=0x47 \
     persist.vendor.camera.multicam.fpsmatch=TRUE \
     persist.vendor.camera.multicam.hwsync=TRUE \
