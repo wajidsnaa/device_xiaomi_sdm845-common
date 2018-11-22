@@ -115,3 +115,17 @@ PRODUCT_PACKAGES += \
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
 	SystemUI
+
+# Wifi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service \
+    hostapd \
+    wificond \
+    wifilogd \
+    wpa_supplicant
+
+ PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+    $(LOCAL_PATH)/configs/hostapd.accept:system/etc/hostapd/hostapd.accept \
+    $(LOCAL_PATH)/configs/hostapd.deny:system/etc/hostapd/hostapd.deny \
+
