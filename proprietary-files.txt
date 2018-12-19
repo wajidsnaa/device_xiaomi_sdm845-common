@@ -48,6 +48,14 @@ lib/libdpmframework.so
 lib/libdpmtcm.so
 -priv-app/dpmserviceapp/dpmserviceapp.apk
 
+# DISPLAY
+lib64/libsd_sdk_display.so
+lib64/libsdm-disp-apis.so
+lib64/vendor.display.color@1.0.so
+lib64/vendor.display.color@1.1.so
+lib/libsd_sdk_display.so
+lib/libsdm-disp-apis.so
+
 # IMS
 -app/uceShimService/uceShimService.apk
 etc/permissions/com.qualcomm.qti.imscmservice.xml

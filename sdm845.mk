@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiDoze
 
+# OMNI
+PRODUCT_PACKAGES += \
+    OmniDisplayManager
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
