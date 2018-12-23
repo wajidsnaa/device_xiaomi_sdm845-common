@@ -87,7 +87,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES  += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.qcom
+    power.qcom:64
 
 # QTI
 PRODUCT_COPY_FILES += \
