@@ -13,8 +13,8 @@ $(call inherit-product-if-exists, vendor/xiaomi/sdm845-common/sdm845-common-vend
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
+#    $(LOCAL_PATH)/overlay-lineage
 
 # Properties
 -include $(LOCAL_PATH)/common-props.mk
@@ -102,3 +102,16 @@ PRODUCT_PACKAGES += \
 # VNDK-SP
 PRODUCT_PACKAGES += \
     vndk-sp
+
+# Prebuilt apps
+PRODUCT_PACKAGES += \
+   SubstratumKey \
+   NoCutoutOverlay
+
+# Prebuilt apps
+PRODUCT_PACKAGES += \
+	Updates
+
+# Preopt SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+	SystemUI
